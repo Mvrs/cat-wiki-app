@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  button,
+  input {
+    @apply focus:outline-none;
+  }
+}
+.pos-center {
+  top: 50%;
+  transform: translate(0, -50%);
+}
+.underline-short,
+.topline-short {
+  @apply relative;
+}
+.underline-short::after {
+  content: "";
+  @apply w-20 h-1 bg-gray-750 block;
+}
+
+.topline-short::after {
+  content: "";
+  @apply w-20 h-1 bg-gray-750 block absolute -top-4;
+}
+
+.cat-img:hover > *:last-child {
+  @apply animate-to-left;
+}
+
+.animate-underline {
+  @apply relative;
+}
+.animate-underline::after {
+  content: "";
+  @apply absolute left-0 -bottom-1 w-0 h-0.5 bg-gray-750 transition-all bg-opacity-60;
+}
+.animate-underline:hover::after {
+  @apply w-full;
+}
+
+.scrollbar-thin::-webkit-scrollbar-thumb,
+.scrollbar-thin::-webkit-scrollbar-track {
+  @apply rounded-full;
+}
+
+.clearfix::after {
+  content: "";
+  @apply clear-both block;
+}
