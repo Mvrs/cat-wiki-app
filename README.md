@@ -1,46 +1,82 @@
-# Getting Started with Create React App
+<!-- Please update value in the {}  -->
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">Cat Wiki</h1>
 
-## Available Scripts
+<div align="center">
+   Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
+</div>
 
-In the project directory, you can run:
+<br>
 
-### `yarn start`
+<!-- TABLE OF CONTENTS -->
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Table of Contents
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- [Overview](#overview)
+  - [Built With](#built-with)
+- [How to use](#how-to-use)
+- [Contact](#contact)
+- [Acknowledgements](#acknowledgements)
 
-### `yarn test`
+<!-- OVERVIEW -->
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Overview
 
-### `yarn build`
+### Built With
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- [React](https://reactjs.org/)
+- Tailwindcss - Component Library
+- Redux Toolkit - State Management
+- Mongodb & Mongoose - Backend Layer
+- Express - Initiate Server
+- Mongo Atlas - Host Database
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Roadmap
 
-### `yarn eject`
+### Milestone 1
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- [ ] Add ESLint
+- [x] Add Tailwindcss
+- [x] Setup Mongodb and Mongoose
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Milestone 2
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- [ ] I can search for cat breeds and select a breed of my choice
+- [ ] I can see the most popular searched cat breeds summary on the homepage
+- [ ] I can see the top 10 most searched cat breeds
+- [ ] I can see the breed details including description, temperament, origin, life span, adaptability, affection level, child-friendly, grooming, intelligence, health issues, social needs, stranger friendly
+- [ ] I can see more photo of the breed
+- [ ] On mobile, when I select the search option, a modal for breed search should pop up
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Milestone 3
 
-## Learn More
+- [ ] I can go to an article about cats when I click read more on Why you should have a cat section
+- [ ] I can go to the top 10 cats by clicking see more in the dashboard
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## How To Use
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<!-- Example: -->
+
+```bash
+# Clone this repository
+$ git clone https://github.com/Mvrs/cat-wiki
+
+# Install dependencies
+$ npm install # or yarn install
+
+# Run the app
+$ npm run dev # or yarn dev
+```
+
+## Acknowledgements
+
+<!-- This section should list any articles or add-ons/plugins that helps you to complete the project. This is optional but it will help you in the future. For example: -->
+
+- [Google](https://www.google.com/)
+- Youtube
+
+## Contact
+
+- [Twitter](https://{twitter.com/saschamars})
